@@ -47,7 +47,7 @@
       const addQuoteToDom = (quote) => {
         const newEle = document.createElement("p");
         newEle.setAttribute("id", "quote");
-        newEle.textContent = quote;
+        newEle.textContent = `[${quote}]`;
         document.getElementById("fetchingAPI").appendChild(newEle);
       };
 
